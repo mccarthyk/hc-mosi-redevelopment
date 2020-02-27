@@ -67,9 +67,8 @@ export default {
         )[0]
         fixesStylesheet.disabled = true
         fixesStylesheet.parentNode.removeChild(fixesStylesheet)
-        console.log('removed')
       } catch (error) {
-        console.warn(error)
+        // console.warn(error)
       }
     }
   }
