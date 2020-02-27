@@ -1,3 +1,6 @@
 module.exports = {
-    publicPath: './'
+    publicPath: process.env.NODE_ENV === 'production'
+        ? 'https://commbocc.github.io/hc-mosi-redevelopment/dist/'
+        : './',
+    integrity: true
 }
