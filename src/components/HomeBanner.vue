@@ -24,7 +24,7 @@
       <!--  -->
       <div class="row mt-5">
         <div class="col-xl-6">
-          <a href="booklet.pdf" target="_blank" class="btn btn-block btn-outline-dark btn-lg display-4 my-3">View the RFP</a>
+          <a href="https://www.hillsboroughcounty.org/library/hillsborough/media-center/documents/procurement-services/rfps/mosi.pdf" target="_blank" class="btn btn-block btn-outline-dark btn-lg display-4 my-3">View the RFP</a>
         </div>
         <div class="col-xl-6">
           <a href="https://www.hillsboroughcounty.org/en/government/departments/procurement" target="_blank" class="btn btn-block btn-outline-dark btn-lg display-4 my-3">Contact Procurement Services</a>

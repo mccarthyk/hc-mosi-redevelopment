@@ -26,7 +26,7 @@
 
       <p class="text-center mt-5">
         <a
-          href="booklet.pdf"
+          href="https://www.hillsboroughcounty.org/library/hillsborough/media-center/documents/procurement-services/rfps/mosi.pdf"
           class="btn btn-lg btn-outline-warning text-capitalize display-4 px-5"
         >View the RFP Booklet</a>
       </p>

@@ -24,7 +24,7 @@ export default {
     links: [
       {
         text: 'Request for Master Developer Qualifications/Proposals Booklet',
-        src: 'booklet.pdf',
+        src: 'https://www.hillsboroughcounty.org/library/hillsborough/media-center/documents/procurement-services/rfps/mosi.pdf',
         target: undefined
       },
       {
