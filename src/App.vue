@@ -1,28 +1,79 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <main id="app">
+    <!--  -->
+    <VideoHeader youtube-id="8yhT-VIIe2Y">
+      <div class="p-5 text-center text-dark" :style="{ background: 'rgba(255,255,255,0.85)' }">
+        <h1 class="display-1 tagline">Develop in the Center of Innovation</h1>
+      </div>
+    </VideoHeader>
+
+    <!--  -->
+    <HomeBanner />
+
+    <!--  -->
+    <HomeCards />
+
+    <!--  -->
+    <Video youtube-id="cMcTLMW-HCs" class="py-5" container />
+    <!-- <Video youtube-id="3Ev3czmj3Ns" class="py-5" /> -->
+
+    <!--  -->
+    <h2
+      id="university-area"
+      class="display-2 bg-dark m-0 py-5 text-center text-light"
+    >University Area Context</h2>
+    <AreaMap aria-labelledby="university-area" />
+
+    <!--  -->
+    <PointsOfInterest />
+
+    <!--  -->
+    <AboutTampa youtube-id="7d5zBph8-S0" />
+
+    <!--  -->
+    <Resources />
+  </main>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import VideoHeader from '@/components/VideoHeader'
+import HomeBanner from '@/components/HomeBanner'
+import HomeCards from '@/components/HomeCards'
+import Video from '@/components/Video'
+import AreaMap from '@/components/AreaMap'
+import PointsOfInterest from '@/components/PointsOfInterest'
+import AboutTampa from '@/components/AboutTampa'
+import Resources from '@/components/Resources'
 
 export default {
-  name: 'App',
+  created() {
+    this.removeHcFixesStyles()
+  },
   components: {
-    HelloWorld
+    VideoHeader,
+    HomeBanner,
+    HomeCards,
+    Video,
+    AreaMap,
+    PointsOfInterest,
+    AboutTampa,
+    Resources
+  },
+  methods: {
+    removeHcFixesStyles() {
+      try {
+        const fixesStylesheet = document.querySelectorAll(
+          '[href*="fixes.css"]'
+        )[0]
+        fixesStylesheet.disabled = true
+        fixesStylesheet.parentNode.removeChild(fixesStylesheet)
+        console.log('removed')
+      } catch (error) {
+        console.warn(error)
+      }
+    }
   }
 }
 </script>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style lang="scss" src="@/assets/main.scss"></style>
