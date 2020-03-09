@@ -18,7 +18,7 @@
         <div class="col-lg-5 align-self-end slide-down mt-5">
           <p
             class="lead"
-          >The MOSI property sits within a portion of Tampa known as the University Area and is adjacent to many of Tampa’s largest and most influential institutions.</p>
+          >The property sits within an urban area known as the Innovation District which is anchored by the University of South Florida – a preeminent research university – and is adjacent to many of Tampa Bay’s largest and most influential institutions.</p>
         </div>
       </div>
     </div>
