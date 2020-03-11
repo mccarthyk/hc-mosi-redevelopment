@@ -35,10 +35,10 @@
 </template>
 
 <script>
-import * as img1 from '@/assets/undraw_best_place_r685.svg'
-import * as img2 from '@/assets/undraw_town_r6pc.svg'
-import * as img3 from '@/assets/undraw_city_girl_ccpd.svg'
-import * as img4 from '@/assets/undraw_professor_8lrt.svg'
+import * as img1 from '@/assets/redevelopment-coveted-location.png'
+import * as img2 from '@/assets/redevelopment-growing-community.png'
+import * as img3 from '@/assets/redevelopment-meds-eds.png'
+import * as img4 from '@/assets/redevelopment-ride-wave.png'
 
 export default {
   data: () => ({
