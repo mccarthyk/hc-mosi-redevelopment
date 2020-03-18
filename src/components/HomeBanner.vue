@@ -14,7 +14,7 @@
       <div class="row align-items-center">
         <div class="col-md-8">
           <div class="lead">
-            <p>Hillsborough County has a historic opportunity to redevelopment the former Museum of Science and Industry (MOSI) complex and surrounding land at 4801 Fowler Ave, Tampa, Florida. The County seeks a visionary development partner who will leverage the innovation that surrounds the site and the area’s booming economy to create an urban, mixed-use hub for cutting-edge companies, sustainable living and community advancement.</p>
+            <p>Hillsborough County has a historic opportunity to redevelop the site of the  Museum of Science and Industry (MOSI)  at 4801 Fowler Ave, Tampa, Florida. The County seeks a visionary development partner who will leverage the innovation that surrounds the site and the area’s booming economy to create an urban, mixed-use hub for cutting-edge companies, sustainable living and community advancement.</p>
           </div>
         </div>
         <div class="col-md-4">
