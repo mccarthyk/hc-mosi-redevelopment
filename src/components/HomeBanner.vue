@@ -11,7 +11,7 @@
       <hr />
 
       <!--  -->
-      <div class="row align-items-center">
+      <div class="d-md-flex align-items-center">
         <div class="col-md-8">
           <div class="lead">
             <p>Hillsborough County has a historic opportunity to redevelop the site of the  Museum of Science and Industry (MOSI)  at 4801 Fowler Ave, Tampa, Florida. The County seeks a visionary development partner who will leverage the innovation that surrounds the site and the area’s booming economy to create an urban, mixed-use hub for cutting-edge companies, sustainable living and community advancement.</p>
@@ -23,7 +23,7 @@
       </div>
 
       <!--  -->
-      <div class="row mt-5">
+      <div class="d-xl-flex mt-5">
         <div class="col-xl-6">
           <a href="https://www.hillsboroughcounty.org/library/hillsborough/media-center/documents/procurement-services/rfps/mosi.pdf" target="_blank" class="btn btn-block btn-outline-dark btn-lg display-4 my-3">View the RFP</a>
         </div>

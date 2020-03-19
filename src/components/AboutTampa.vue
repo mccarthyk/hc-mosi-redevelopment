@@ -1,7 +1,7 @@
 <template>
   <section class="bg-dark pb-5 slide-up slide-up-light">
     <div class="container">
-      <div class="row">
+      <div class="d-lg-flex">
         <!--  -->
         <div class="col-lg-7">
           <div class="embed-responsive embed-responsive-16by9">

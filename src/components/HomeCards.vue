@@ -8,7 +8,7 @@
       >The Opportunity</h2>
 
       <!-- showcase -->
-      <div class="row align-items-stretch">
+      <div class="d-md-flex flex-wrap align-items-stretch">
         <div v-for="(showcase, i) in showcases" :key="i" class="col-md-6 my-4">
           <div class="card bg-light rounded-0 h-100">
             <div class="embed-responsive embed-responsive-4by3">

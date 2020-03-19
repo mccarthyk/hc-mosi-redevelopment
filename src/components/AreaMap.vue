@@ -2,7 +2,7 @@
   <section class="pb-5 bg-white slide-up slide-up-dark">
     <div class="container">
       <!--  -->
-      <div class="row">
+      <div class="d-lg-flex">
         <div class="col-lg-7">
           <div class="embed-responsive embed-responsive-4by3">
             <iframe
