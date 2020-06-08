@@ -29,7 +29,7 @@ export default {
       {
         name: 'University of South Florida',
         excerpt:
-          'A $40 million Indoor Athletic Facility bordering Fowler Avenue with a 40,000-seat, approximately $200 million football stadium.'
+          'The University of South Florida is ranked in the top 10 in the nation for patent production asserting its status as a top research university. A $40 million Indoor Athletic Facility bordering Fowler Avenue with a 40,000-seat, approximately $200 million football stadium.'
       },
       {
         name: 'Moffitt Cancer Center',
@@ -49,7 +49,7 @@ export default {
       {
         name: 'Uptown (former University Mall)',
         excerpt:
-          'Purchased by RD Management in 2014 for $29.5 million. RD Management has announced plans for $1 billion of investment to convert the site to a mixed-use district.'
+          'Purchased by RD Management in 2014. RD Management has announced plans for $1 billion of investment to convert the site to a mixed-use district.'
       },
       {
         name: 'Yuengling Tampa Brewery',

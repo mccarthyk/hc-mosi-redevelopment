@@ -2,10 +2,7 @@
   <section class="bg-dark py-5" aria-labelledby="cards">
     <div class="container">
       <!--  -->
-      <h2
-        id="cards"
-        class="display-2 text-center text-warning mt-5"
-      >The Opportunity</h2>
+      <h2 id="cards" class="display-2 text-center text-warning mt-5">The Opportunity</h2>
 
       <!-- showcase -->
       <div class="d-md-flex flex-wrap align-items-stretch">
@@ -17,7 +14,9 @@
               </div>
             </div>
             <div class="card-body">
-              <h3 class="card-title text-lowercase text-capitalize font-weight-bold">{{ showcase.heading }}</h3>
+              <h3
+                class="card-title text-lowercase text-capitalize font-weight-bold"
+              >{{ showcase.heading }}</h3>
               <p class="card-text">{{ showcase.text }}</p>
             </div>
           </div>
@@ -26,9 +25,10 @@
 
       <p class="text-center mt-5">
         <a
-          href="https://www.hillsboroughcounty.org/library/hillsborough/media-center/documents/procurement-services/rfps/mosi.pdf"
+          href="https://www.hillsboroughcounty.org/library/hillsborough/media-center/documents/procurement-services/rfps/MOSI-ReDevelopment-Marketing-Brochure.pdf"
           class="btn btn-lg btn-outline-warning text-capitalize display-4 px-5"
-        >View the RFP Booklet</a>
+          target="_blank"
+        >View the Marketing Brochure</a>
       </p>
     </div>
   </section>
