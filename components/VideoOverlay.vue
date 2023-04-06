@@ -6,7 +6,7 @@
         class="embed-responsive-item"
         src="https://youtube.com/embed/7d5zBph8-S0?loop=1&mute=1&autoplay=1&controls=0&autohide=1&modestbranding=1&rel=0&playlist=7d5zBph8-S0"
       ></iframe>
-      <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;">
+      <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0">
         <div class="d-flex h-100">
           <div class="container my-auto">
             <slot>
@@ -20,9 +20,21 @@
 </template>
 
 <script>
-import videoMixin from '@/mixins/video'
-
 export default {
-  mixins: [videoMixin]
+  props: {
+    youtubeId: {
+      type: String,
+      required: true,
+    },
+    container: {
+      type: Boolean,
+      default: false,
+    },
+  },
+  computed: {
+    embedSrc() {
+      return `https://youtube.com/embed/${this.youtubeId}?loop=1&mute=1&autoplay=1&controls=0&autohide=1&modestbranding=1&rel=0&playlist=${this.youtubeId}`
+    },
+  },
 }
 </script>

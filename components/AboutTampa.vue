@@ -15,9 +15,12 @@
         </div>
         <!--  -->
         <div class="col-lg-5 align-self-end slide-down text-light">
-          <p
-            class="lead"
-          >The Tampa Bay area is among the most desirable cities in the Southeast United States. Money Magazine ranks it number one based on a robust job market, affordable property prices, and international aspirations.</p>
+          <p class="lead">
+            The Tampa Bay area is among the most desirable cities in the
+            Southeast United States. Money Magazine ranks it number one based on
+            a robust job market, affordable property prices, and international
+            aspirations.
+          </p>
         </div>
       </div>
     </div>
@@ -25,9 +28,21 @@
 </template>
 
 <script>
-import videoMixin from '@/mixins/video'
-
 export default {
-  mixins: [videoMixin]
+  props: {
+    youtubeId: {
+      type: String,
+      required: true,
+    },
+    container: {
+      type: Boolean,
+      default: false,
+    },
+  },
+  computed: {
+    embedSrc() {
+      return `https://youtube.com/embed/${this.youtubeId}?loop=1&mute=1&autoplay=1&controls=0&autohide=1&modestbranding=1&rel=0&playlist=${this.youtubeId}`
+    },
+  },
 }
 </script>

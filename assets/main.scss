@@ -1,0 +1,71 @@
+#__nuxt {
+  $enable-responsive-font-sizes: true;
+
+  // theme
+  $primary: #ff6f5b !default;
+  $secondary: #054173 !default;
+  $success: #9bd63c !default;
+  $info: #7abfd7 !default;
+  $warning: #f0ad4e !default;
+  $danger: #f1463c !default;
+  // $dark:        #4a535d !default;
+  // $dark:        #495057 !default;
+
+  .embed-responsive {
+    height: initial;
+  }
+
+  // @import '~bootstrap/scss/bootstrap';
+  @import 'bootstrap/scss/bootstrap-reboot';
+  @import 'bootstrap/scss/bootstrap-grid';
+  @import 'bootstrap/scss/buttons';
+  @import 'bootstrap/scss/card';
+  @import 'bootstrap/scss/images';
+  @import 'bootstrap/scss/type';
+  @import 'bootstrap/scss/utilities';
+
+  //
+  @import './scss/slide';
+
+  font-family: 'freight-sans-pro', 'Lato', 'Helvetica Neue', Helvetica, Arial,
+    FontAwesome, sans-serif;
+
+  font-size: medium;
+
+  @include media-breakpoint-up(xl) {
+    .tagline {
+      font-size: 7vh;
+      padding: 5rem;
+    }
+  }
+
+  .lead {
+    font-size: 1.5em;
+  }
+
+  .banner {
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(
+      -45deg,
+      $warning 0%,
+      #ffffff 30%,
+      #ffffff 70%,
+      $warning 100%
+    ); /* FF3.6-15 */
+    background: -webkit-linear-gradient(
+      -45deg,
+      $warning 0%,
+      #ffffff 30%,
+      #ffffff 70%,
+      $warning 100%
+    ); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+      135deg,
+      $warning 0%,
+      #ffffff 30%,
+      #ffffff 70%,
+      $warning 100%
+    ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$warning', endColorstr='$warning',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  }
+}
