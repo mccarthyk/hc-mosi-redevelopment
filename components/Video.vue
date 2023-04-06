@@ -1,15 +1,13 @@
 <template>
-  <section class="bg-dark">
-    <div :class="container ? 'container' : null">
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe
-          frameborder="0"
-          class="embed-responsive-item"
-          :src="embedSrc"
-        ></iframe>
-      </div>
+  <div :class="container ? 'container' : null">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe
+        frameborder="0"
+        class="embed-responsive-item"
+        :src="embedSrc"
+      ></iframe>
     </div>
-  </section>
+  </div>
 </template>
 
 <script>
