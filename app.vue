@@ -13,18 +13,16 @@ onBeforeMount(() => {
 </script>
 
 <template>
-  <Html data-theme="light">
-    <NuxtPage />
+  <NuxtPage />
 
-    <Link
-      v-if="preview || $dev"
-      rel="stylesheet"
-      href="https://www.hillsboroughcounty.org/assets/css/vendor?v=QID2bUIAtfWCxxWSwQ2j26PN-OBNmTBYAoJNGdkM9t81"
-    />
-    <Link
-      v-if="preview || $dev"
-      rel="stylesheet"
-      href="https://www.hillsboroughcounty.org/assets/css/vendor?v=QID2bUIAtfWCxxWSwQ2j26PN-OBNmTBYAoJNGdkM9t81"
-    />
-  </Html>
+  <Link
+    v-if="preview || $dev"
+    rel="stylesheet"
+    href="https://www.hillsboroughcounty.org/assets/css/vendor?v=QID2bUIAtfWCxxWSwQ2j26PN-OBNmTBYAoJNGdkM9t81"
+  />
+  <Link
+    v-if="preview || $dev"
+    rel="stylesheet"
+    href="https://www.hillsboroughcounty.org/assets/css/vendor?v=QID2bUIAtfWCxxWSwQ2j26PN-OBNmTBYAoJNGdkM9t81"
+  />
 </template>
